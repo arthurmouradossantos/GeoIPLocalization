@@ -3,7 +3,7 @@
 
 ## Sobre
 
-Resultado de um desafio do site "Front End Mentor". É uma página web, nela há um campo onde você coloca seu IP, e, logo em seguida, aparecerá algumas informações sobre esse IP: timezone, localização no mapa, endereço e ISP.
+Resultado de um desafio do site "Front End Mentor". É uma página web, nela há um campo onde você coloca um IP, e, logo em seguida, aparecerá algumas informações sobre esse IP: timezone, localização no mapa, endereço e ISP.
 
 ## Tecnologias Utilizadas
 
