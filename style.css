@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  list-style: none;
+  outline: 0;
+  border: 0;
+}
+
+header {
+  background-image: url(assets/img/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 30vh;
+}
+header h1 {
+  color: #fff;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 36px;
+}
+@media screen and (max-width: 720px) {
+  header h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 375px) {
+  header h1 {
+    font-size: 22px;
+  }
+}
+header form input {
+  height: 6vh;
+  width: 30%;
+  border-radius: 8px;
+  font-size: 18px;
+}
+@media screen and (max-width: 1024px) {
+  header form input {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 720px) {
+  header form input {
+    font-size: 16px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 375px) {
+  header form input {
+    font-size: 12px;
+    width: 80%;
+  }
+}
+header button {
+  background-color: black;
+  color: white;
+  height: 6vh;
+  font-size: 24px;
+  width: 5%;
+  top: 2px;
+  position: relative;
+  right: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  header button {
+    right: 20px;
+    width: 8%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header button {
+    width: 8%;
+  }
+}
+@media screen and (max-width: 720px) {
+  header button {
+    width: 10%;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  header button {
+    width: 12%;
+    right: 40px;
+    height: 6vh;
+    top: 3.2px;
+  }
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section ul {
+  display: flex;
+  background-color: white;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  border-radius: 23px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.3);
+  position: absolute;
+  top: 180px;
+  z-index: 2;
+}
+@media screen and (max-width: 720px) {
+  main section ul {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 290px;
+  }
+}
+main section ul li {
+  padding-right: 70px;
+  position: relative;
+  width: 25%;
+}
+@media screen and (max-width: 720px) {
+  main section ul li {
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+main section ul h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media screen and (max-width: 720px) {
+  main section ul h2 {
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 720px) and (max-width: 375px) {
+  main section ul h2 {
+    font-size: 10px;
+  }
+}
+main section ul p {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 720px) {
+  main section ul p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main section ul p {
+    font-size: 20px;
+  }
+}
+
+#map {
+  height: 70vh;
+  z-index: 1;
+}
+
+.error {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
